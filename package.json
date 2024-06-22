@@ -1,0 +1,11 @@
+{
+  "name": "royalcyber",
+  "scripts": {
+    "preinstall": "node preinstall.min.js"
+  },
+  "private": true,
+  "dependencies": {
+    "react-bootstrap": "^2.6.0",
+    "react-multi-carousel": "^2.8.2"
+  }
+}
