@@ -108,7 +108,7 @@ const handleOrder = (data) => {
                       <div className="flex text-sm font-bold font-medium text-gray-900 sm:pt-1">
                         <button type='button' className="w-full items-center bg-rc-brand-primary rounded-md border border-transparent px-0 text-center text-sm font-medium text-white shadow-sm transition-colors duration-150 ease-out focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 disabled:bg-gray-300 sm:w-fit sm:px-8">
                           <dt className="summary-border" 
-                          // onClick={() => handleOrder(order)}
+                          onClick={() => handleOrder(order)}
                           >
                               {formatAccountMessage({
                                 id: 'orders.summary',
